@@ -12,5 +12,6 @@ header h1{
 	color: white; }
 
 header img{
-	border-radius: 1000px;
-}
+	border-radius: 500px;
+	width: 800px;
+	border:20px solid grey;
