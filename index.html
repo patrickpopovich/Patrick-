@@ -8,7 +8,6 @@
 </head>
 <body>
 
-
 	<header>
 		<!--Header element -->
 		<img src="img/Patrick.jpg">
@@ -46,28 +45,9 @@
 			<li><a target="blank" href="https://es-la.facebook.com/patrickpopovichp">Facebook</li>
 				
 		</ul>
-<div id="banana-desk-booking-widget"></div>
-<script>
-    (function () {
-        var httpRequest = new XMLHttpRequest();
-        httpRequest.open("GET", "https://bananadesk.com/booking-engine/3099/html-snippet", true);
-        httpRequest.onreadystatechange = function () {
-            var REQUEST_FINISHED = 4;
-            var OK_STATUS_CODE = 200;
-            if (httpRequest.readyState == REQUEST_FINISHED && httpRequest.status == OK_STATUS_CODE) {
-                document.getElementById("banana-desk-booking-widget").innerHTML = httpRequest.responseText;
-                var script = /<script.*>((.|\s)*)<\/script>/.exec(httpRequest.responseText)[1];
-                eval(script);
-            }
-        };
-        httpRequest.send();
-    })();
-
 	</main>
 
 	<footer>Soy mejor locutor que diseñador web. &copy; 2020 Patrick Popovich</footer>
-
-
 
 
 </body>
